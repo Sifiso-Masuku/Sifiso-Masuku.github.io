@@ -39,18 +39,10 @@
   box-sizing: border-box;
 }
 
-/*@media  (prefers-reduced-motion: no-preference)*/
-@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
-
-    .topnav a.icon {
-        float: right;
-        display: block;
-        /*: root {
-        scroll-behavior: smooth;*/
-    }
+@media  (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
